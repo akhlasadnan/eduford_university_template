@@ -107,7 +107,7 @@ nav .fa-bars{
     border-color: #e23719;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 640px) {
     .container{
         width: 90%;
     }
