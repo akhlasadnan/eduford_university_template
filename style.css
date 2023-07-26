@@ -225,10 +225,10 @@ nav .fa-bars{
 
 /* Course Section Responsive Style End */
 
+/* Campus Section Style Start */
 .campus-section{
     margin-top: 100px;
     text-align: center;
-    margin-bottom: 100px;
 }
 
 .campus-row{
@@ -246,6 +246,7 @@ nav .fa-bars{
 
 .campus-box img{
     display: block;
+    width: 100%;
 }
 
 .hover-text{
@@ -287,6 +288,10 @@ nav .fa-bars{
     transition: 0.5s;
 }
 
+/* Campus Section Style End */
+
+/* Campus Section Mobile Responsive Start */
+
 @media (max-width: 640px) {
     .campus-row{
         flex-direction: column;
@@ -303,3 +308,145 @@ nav .fa-bars{
         transform: translate(-50%, -50%);        
     }
 }
+
+/* Campus Section Mobile Responsive End */
+
+/* Facilities Section Style Start */
+
+.facilities-section{
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+.facilities-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.facilities-box{
+    flex-basis: 32%;
+
+}
+
+
+.facilities-box img{
+    width: 100%;
+    display: block;
+    border-radius: 20px;
+}
+
+.facilities-layer{
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.facilities-layer h3{
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.facilities-layer p{
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+}
+
+/* Facilities Section Style End */
+
+/* Facilities Section Mobile Responsive Start */
+@media (max-width: 640px) {
+    .facilities-row{
+        flex-direction: column;
+    }
+    .facilities-box{
+        margin-bottom: 20px;
+    }
+}
+/* Facilities Section Mobile Responsive End */
+
+
+/* Tesimonials Section Style Start */
+.testimonials-section{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.testimonials-row{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonials-box{
+    flex-basis: 49%;
+    background-color: #fff3f3;
+    display: flex;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.testimonials-image{
+    flex-basis: 32%;
+    padding: 0 20px;
+}
+
+.testimonials-image img{
+    height: 50px;
+    border-radius: 50%;
+}
+
+.testimonials-layer{
+    text-align: justify;
+    margin-left: 60px;
+}
+
+.testimonials-layer p{
+    color: #666;
+    font-size: 14px;
+    height: 42%;
+}
+
+.testimonials-layer h3{
+    font-weight: 400;
+    margin: 25px 0 10px;
+}
+
+.testimonials-layer i{
+    color: #e23719;
+}
+/* Tesimonials Section Style End */
+
+
+/* Facilities Section Mobile Responsive Start */
+
+@media (max-width: 640px) {
+    .testimonials-row{
+        flex-direction: column;
+    }
+
+    .testimonials-box{
+        margin-bottom: 20px;
+    }
+
+    .testimonials-image{
+        padding: 0px 10px;
+    }
+
+    .testimonials-image img{
+        height: 60px;
+    }
+
+    .testimonials-layer{
+        margin-left: 10px;
+    }
+
+    .testimonials-layer p{
+        height: auto;
+    }
+}
+
+/* Facilities Section Mobile Responsive End */
