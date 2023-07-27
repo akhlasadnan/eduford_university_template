@@ -112,6 +112,7 @@ nav .fa-bars{
     padding: 12px 34px;
     background-color: transparent;
     transition: 0.5s;
+    border-radius: 3px;
 }
 
 .hero-btn:hover{
@@ -372,7 +373,6 @@ nav .fa-bars{
 .testimonials-section{
     margin-top: 100px;
     text-align: center;
-    margin-bottom: 100px;
 }
 
 .testimonials-row{
@@ -421,7 +421,7 @@ nav .fa-bars{
 /* Tesimonials Section Style End */
 
 
-/* Facilities Section Mobile Responsive Start */
+/* Testimonials Section Mobile Responsive Start */
 
 @media (max-width: 640px) {
     .testimonials-row{
@@ -449,4 +449,100 @@ nav .fa-bars{
     }
 }
 
-/* Facilities Section Mobile Responsive End */
+/* Testimonials Section Mobile Responsive End */
+
+/* Contact Us Section Style Start */
+
+.contact-us{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("./images/banner2.jpg");
+    /* min-height: 50vh; */
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 100px;
+}
+
+.course-center{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.course-enroll{
+    text-align: center;
+    color: #fff;
+}
+
+.course-enroll h2{
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+
+.about-us{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.social-icons{
+    margin: 40px 0 25px;
+}
+
+.social-icons i{
+    padding: 20px;
+    font-size: 34px;
+    color: #666;
+    transition: 0.5s;
+}
+
+.social-icons .fa-facebook:hover{
+    color: #3b5998;
+}
+
+
+.social-icons .fa-instagram:hover{
+    color: #fbad50;
+}
+
+.social-icons .fa-linkedin:hover{
+    color: #0a66c2;
+}
+
+.social-icons .fa-twitter:hover{
+    color: #00acee;
+}
+
+footer > i{
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    font-size: 50px;
+    z-index: 3;
+}
+
+footer > a{
+    display: block;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 25px;
+    color: #fff;
+    background-color: #e23719;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+@media (max-width: 640px) {
+    footer > i{
+        font-size: 25px;
+        top: 30px;
+    }
+}
